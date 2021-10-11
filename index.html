@@ -1,0 +1,39 @@
+
+<!doctype html>
+<lang html="en">
+
+  <!--
+  
+  Author:  Paula Grata
+  Class:   WDP
+  Project: Map Mania
+  Session: su18-cpsc-24700-lt1
+  Description: Map Mania Program
+  -->
+  
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania PRG</title>
+        <link rel="stylesheet" href="map-mania.css">
+        <script src ="map-mania.js"></script>
+        <style>
+          #myMapID {
+            height: 100%;
+            width: 100%;}
+        
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;}
+        </style>
+      </head>
+      <body onload="initApplication()">
+        <h1><u>map mania v1</u></h1>
+
+        <div id="myMapID"></div>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzEZJc2VAvYLuNYDQ0K-qSJKi39hQpPlA&callback=initMap"
+        async defer>
+      </script>
+      </body>
+</html>
